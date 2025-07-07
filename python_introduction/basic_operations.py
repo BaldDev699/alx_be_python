@@ -1,6 +1,6 @@
 # This script performs basic arithmetic operations: addition, subtraction, and multiplication.
 
-number1 = 10  # First number
+number1 = 10  # First number 
 number2 = 5 # Second number
 
 # Addition
