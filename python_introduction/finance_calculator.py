@@ -1,4 +1,4 @@
-# This script gets the user's income and expenses, and calculates projects savings for the year.
+# This script gets the user's monthly income and monthly expenses, and calculates projects savings for the year.
 
 monthly_income = float(input("Enter your monthly income: ")) # Get the user's monthly income
 monthly_expenses = float(input("Enter your monthly expenses: ")) # Get the user's monthly expenses
