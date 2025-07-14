@@ -1,7 +1,7 @@
 # A script that implements a simple calculator using match-case statements.
 
-num1 = int(input("Enter first number: ")) # Get the first number from the user
-num2 = int(input("Enter second number: ")) # Get the second number from the user
+num1 = int(input("Enter the first number: ")) # Get the first number from the user
+num2 = int(input("Enter the second number: ")) # Get the second number from the user
 
 operation = input("Choose the operation (+, -, *, /): ").strip().lower()
 
