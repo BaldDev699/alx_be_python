@@ -1,23 +1,23 @@
-task = (input("Enter your task: "))
-priority = (input("Priority (high/medium/low): "))
-time_bound = (input("Is it time-bound? (yes/no): "))
+# This script prompts the user to input a task, its priority, and whether it is time-bound and then generates a reminder message based on the inputs.
 
-reminder = " "
+task = (input("Enter your task: ")) # Input for the task
+priority = (input("Priority (high/medium/low): ")) # Input for the priority of the task
+time_bound = (input("Is it time-bound? (yes/no): ")) # Input for whether the task is time-bound
 
+# Determine the reminder message based on the priority
 match priority:
     case "high":
-        reminder = f"Reminder: '{task} is a high priority task"
+        print(f"Reminder: '{task} is a high priority task", end="")
     case "medium":
-        reminder = f"Reminder: '{task}' is a medium priority task."
+        print(f"Reminder: '{task}' is a medium priority task.", end="")
     case "low":
-        reminder = f"Reminder: '{task}' is a low priority task."
+        print(f"Reminder: '{task}' is a low priority task.", end="")
     case _:
-        reminder = f"Reminder: '{task}' is a task with an unspecified priority."
+        print("Reminder: '{task}' is a task with an unspecified priority.", end="")
 
+# Append whether the task is time-bound or not
 if time_bound == "yes":
-    reminder += " that requires immediate attention today!"
+    print(" that requires immediate attention today!")
 else:
-    reminder += " Consider completing it when you have free time."
-
-print(reminder)
+    print(" Consider completing it when you have free time.")
         
