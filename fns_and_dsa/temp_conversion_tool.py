@@ -28,7 +28,7 @@ def main():
     try:
         temperature = float(temperature_input)
     except ValueError:
-        print("Invalid temperature input. Please enter a numeric value.")
+        print("Invalid temperature. Please enter a numeric value.")
 
     if unit == "C":
         converted = convert_to_fahrenheit(float(temperature))
