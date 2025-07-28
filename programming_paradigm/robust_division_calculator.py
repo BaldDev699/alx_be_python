@@ -6,7 +6,7 @@ def safe_divide(numerator, denominator):
         num = float(numerator) # Convert numerator to float
         denom = float(denominator) # Convert denominator to float
         result = num / denom # Perform division
-        return f"Result: {result}" # Return the result as a formatted string
+        print(f"The result of the division is: {result}") # Return the result
     # Handle division by zero
     except ZeroDivisionError:
         return "Error: Cannot divide by zero."
