@@ -1,7 +1,7 @@
 # Script to manage a simple bank account with deposit, withdraw, and balance display functionalities.
 
 # class for BankAccount
-class BankAccount():
+class BankAccount:
     def __init__(self, account_balance=0):
         self.account_balance = account_balance
 
