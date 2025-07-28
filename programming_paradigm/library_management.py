@@ -23,7 +23,7 @@ class Book: # Represents a book in the library
 class Library: # Represents a collection of books in the library
     """A class representing a library that manages books."""
     def __init__(self): # Initialize the library with an empty book collection
-        self.books = []
+        self._books = []
 
     def add_book(self, book): # Add a book to the library's collection
         self.books.append(book)
