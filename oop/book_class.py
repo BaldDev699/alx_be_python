@@ -9,11 +9,11 @@ class Book:
     
     # method to display book information
     def __str__(self):
-        return f"{self.title} by {self.author}, published in ({self.year})"
+        return f"{self.title} by {self.author}, published in {self.year}"
     
     # method to represent the book object
     def __repr__(self):
-        return f"Book({self.title!r}, {self.author!r}, {self.year!r})"
+        return f'Book({self.title!r}, {self.author!r}, {self.year!r})'
     
     # method to delete the book object
     def __del__(self):
