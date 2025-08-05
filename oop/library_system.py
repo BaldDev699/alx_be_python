@@ -1,4 +1,4 @@
-# Script to manage a library system with different types of books
+# script to manage a library system with different types of books
 
 # Class for a generic Book
 class Book:
